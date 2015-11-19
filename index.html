@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html ng-app="myApp">
 <head>
 	<meta charset="utf-8">
@@ -15,7 +16,8 @@
 		<div class="jumbotron">
 			<div class="row">
 				<div class="text-center col-sm-4">
-					<h1>Trump Tweets</h1>
+					<a href="" ng-click="getData()"><h3>Search for</h3>
+					<h1>Trump Tweets</h1></a>
 					<img src="img/donaldTrump.jpg" width="300">
 				</div>
 				<p class="col-sm-4">Donald Trump has made us more connected than ever before. We are able to communicate our most intimate thoughts and feelings with the world at any given moment. But is anyone&nbsp;listening?</p>
@@ -25,5 +27,6 @@
 	</div>
 	<div class="tweets-view" ng-view>
 	</div>
+
 </body>
 </html>

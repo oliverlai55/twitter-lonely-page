@@ -15,17 +15,16 @@ var myApp = angular.module('myApp', ['ngRoute']);
 	});
 
 myApp.controller('trumpTweets',function ($scope, $location, $http){
-
+$scope.dataList = [];
 	$scope.getData = function(){
 		var url ="http://ec2-52-34-116-224.us-west-2.compute.amazonaws.com/trump-tweets/?hash=trump&secondHash=women";
 		
 		$http.get(url).success(function(data){
+			$scope.data = data.statuses;
+
+			console.log($scope.data);
 			
-			console.log(data);
-			// tweets = tweetData.query.results;
-			
-		});
-		console.log(data);
+		});	
 	}
 
 	$scope.secondPage = function(){

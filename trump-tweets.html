@@ -2,6 +2,7 @@
 
 <div  class="trump-tweets"ng-repeat="tweets in data" ng-style="{'background-image':'url({{tweets.user.profile_banner_url}})'}"  class="tweets">
 	<div class="tweet-details">{{tweets.text}}</div>
+	<div class="tweet-details">{{tweets.user.name}}</div>
 	
 
 </div>

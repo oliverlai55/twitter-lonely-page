@@ -5,5 +5,16 @@ h1, img {
 
 /* line 5, ../compass/sass/style.scss */
 .trump-tweets {
-  height: 90vh;
+  height: 600px;
+  background-size: cover;
+  background-repeat: none;
+}
+
+/* line 10, ../compass/sass/style.scss */
+.tweet-details {
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-align: center;
+  font-size: 25px;
+  padding: 150px 50px 50px 50px;
 }

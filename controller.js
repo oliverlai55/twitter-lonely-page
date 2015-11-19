@@ -5,12 +5,12 @@ var myApp = angular.module('myApp', ['ngRoute']);
 			templateUrl: 'trump-tweets.html',
 			controller: 'trumpTweets'
 		}).
-		when('/load-tweets',{
+		when('/load-tweets.html',{
 			templateUrl: 'load-tweets.html',
 			controller: 'loadTweets'
 		}).
 		otherwise({
-			redirectTo: 'trump-tweets.html'
+			redirectTo: '/'
 		});
 	});
 
@@ -29,6 +29,24 @@ $scope.dataList = [];
 
 	$scope.secondPage = function(){
 		$location.path('load-tweets.html')
+	}
+
+});
+myApp.controller('loadTweets',function ($scope, $location, $http){
+$scope.dataList = [];
+	
+		var url ="http://ec2-52-34-116-224.us-west-2.compute.amazonaws.com/trump-tweets/?hash=trump&secondHash=women";
+		
+		$http.get(url).success(function(data){
+			$scope.data = data.statuses;
+
+			console.log($scope.data);
+			
+		});	
+	
+
+	$scope.homePage = function(){
+		$location.path('trump-tweets.html')
 	}
 
 });

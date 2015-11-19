@@ -1,6 +1,4 @@
-h1, img{
-	transform: rotate(-5deg);
-}
+
 
 .trump-tweets{
 	height: 600px;
@@ -29,4 +27,13 @@ h1, img{
 	text-align: center;
 	font-size: 35px;
 	padding:150px 50px 50px 50px;
+}
+.jumbotron{
+	height: 400px;
+	h2, img{
+	transform: rotate(-5deg);
+	}
+	.header-text p{
+		margin-top: 30px;
+	}
 }

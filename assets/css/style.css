@@ -1,16 +1,11 @@
-/* line 1, ../compass/sass/style.scss */
-h1, img {
-  transform: rotate(-5deg);
-}
-
-/* line 5, ../compass/sass/style.scss */
+/* line 3, ../compass/sass/style.scss */
 .trump-tweets {
   height: 600px;
   background-size: cover;
   background-repeat: none;
 }
 
-/* line 10, ../compass/sass/style.scss */
+/* line 8, ../compass/sass/style.scss */
 .second-page-details {
   color: black;
   text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
@@ -19,11 +14,24 @@ h1, img {
   padding: 150px 50px 50px 50px;
 }
 
-/* line 22, ../compass/sass/style.scss */
+/* line 20, ../compass/sass/style.scss */
 .tweet-details {
   color: white;
   text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
   text-align: center;
   font-size: 35px;
   padding: 150px 50px 50px 50px;
+}
+
+/* line 31, ../compass/sass/style.scss */
+.jumbotron {
+  height: 400px;
+}
+/* line 33, ../compass/sass/style.scss */
+.jumbotron h2, .jumbotron img {
+  transform: rotate(-5deg);
+}
+/* line 36, ../compass/sass/style.scss */
+.jumbotron .header-text p {
+  margin-top: 30px;
 }

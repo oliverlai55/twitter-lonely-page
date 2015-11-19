@@ -30,6 +30,9 @@ $scope.dataList = [];
 	$scope.secondPage = function(){
 		$location.path('load-tweets.html')
 	}
+	$scope.homePage = function(){
+		$location.path('trump-tweets.html')
+	}
 
 });
 myApp.controller('loadTweets',function ($scope, $location, $http){
@@ -45,8 +48,6 @@ $scope.dataList = [];
 		});	
 	
 
-	$scope.homePage = function(){
-		$location.path('trump-tweets.html')
-	}
+	
 
 });

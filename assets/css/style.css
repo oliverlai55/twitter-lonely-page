@@ -2,3 +2,8 @@
 h1, img {
   transform: rotate(-5deg);
 }
+
+/* line 5, ../compass/sass/style.scss */
+.trump-tweets {
+  height: 90vh;
+}

@@ -17,7 +17,7 @@ var myApp = angular.module('myApp', ['ngRoute']);
 myApp.controller('trumpTweets',function ($scope, $location, $http){
 $scope.dataList = [];
 	
-		var url ="http://ec2-52-34-116-224.us-west-2.compute.amazonaws.com/trump-tweets/?hash=trump&secondHash=women";
+		var url ="http://ec2-52-34-116-224.us-west-2.compute.amazonaws.com/trump-tweets/?hash=trump";
 		
 		$http.get(url).success(function(data){
 			$scope.data = data.statuses;

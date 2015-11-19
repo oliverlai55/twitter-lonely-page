@@ -11,9 +11,18 @@ h1, img {
 }
 
 /* line 10, ../compass/sass/style.scss */
+.second-page-details {
+  color: black;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+  text-align: center;
+  font-size: 25px;
+  padding: 150px 50px 50px 50px;
+}
+
+/* line 22, ../compass/sass/style.scss */
 .tweet-details {
   color: white;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
   text-align: center;
   font-size: 25px;
   padding: 150px 50px 50px 50px;

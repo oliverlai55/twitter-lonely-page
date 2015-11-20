@@ -1,6 +1,7 @@
 
 .container-fluid{
 	width:100% !important;
+	padding:0 !important;
 }
 
 .trump-tweets{
@@ -41,6 +42,10 @@
 	.header-text p{
 		margin-top: 30px;
 	}
+}
+
+#nav{
+	border-radius: 0px !important;
 }
 
 #nav.affix {

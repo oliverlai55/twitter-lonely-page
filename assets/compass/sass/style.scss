@@ -1,4 +1,7 @@
-
+body{
+	font-size:25px !important;
+	font-weight: bold;
+}
 .container-fluid{
 	width:100% !important;
 	padding:0 !important;
@@ -61,4 +64,10 @@
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     -o-border-radius: 0;
+}
+.navbar-inverse .navbar-nav>a{
+	margin-left:500px;
+}
+#example-navbar ul{
+	margin-left: 500px;
 }

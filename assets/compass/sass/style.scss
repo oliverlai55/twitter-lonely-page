@@ -12,19 +12,9 @@ body{
 	background-size:cover;
 	background-repeat: none;
 }
-.second-page-details{
-	color: black;
-    text-shadow:
-    -1px -1px 0 white,
-    1px -1px 0 white,
-    -1px 1px 0 white,
-    1px 1px 0 white; 
-	text-align: center;
-	font-size: 25px;
-	padding:150px 50px 50px 50px;
-}
 
-.tweet-details{
+
+.tweet-details, .second-page-details{
 	color: white;
     text-shadow:
     -1px -1px 0 black,
@@ -35,6 +25,7 @@ body{
 	font-size: 35px;
 	padding:150px 50px 50px 50px;
 }
+
 .jumbotron{
 	margin-bottom: 0px !important;
 	height: 400px;

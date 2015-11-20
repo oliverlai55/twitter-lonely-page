@@ -42,27 +42,31 @@ body {
   width: 100% !important;
 }
 /* line 42, ../compass/sass/style.scss */
-.jumbotron h2, .jumbotron img {
+.jumbotron #trump-tweets {
   transform: rotate(-5deg);
 }
 /* line 45, ../compass/sass/style.scss */
+.jumbotron #sheen-tweets {
+  transform: rotate(5deg);
+}
+/* line 48, ../compass/sass/style.scss */
 .jumbotron .header-text p {
   margin-top: 30px;
 }
 
-/* line 50, ../compass/sass/style.scss */
+/* line 53, ../compass/sass/style.scss */
 #nav {
   border-radius: 0px !important;
 }
 
-/* line 54, ../compass/sass/style.scss */
+/* line 57, ../compass/sass/style.scss */
 #nav.affix {
   position: fixed;
   top: 0;
   width: 100%;
 }
 
-/* line 60, ../compass/sass/style.scss */
+/* line 63, ../compass/sass/style.scss */
 #nav > .navbar-inner {
   border-left: 0;
   border-right: 0;
@@ -72,12 +76,12 @@ body {
   -o-border-radius: 0;
 }
 
-/* line 68, ../compass/sass/style.scss */
+/* line 71, ../compass/sass/style.scss */
 .navbar-inverse .navbar-nav > a {
   margin-left: 500px;
 }
 
-/* line 71, ../compass/sass/style.scss */
+/* line 74, ../compass/sass/style.scss */
 #example-navbar ul {
-  margin-left: 500px;
+  margin-left: 445px;
 }

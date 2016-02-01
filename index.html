@@ -13,9 +13,17 @@
 	<script type="text/javascript" src="AngularCookies.js"></script>
 	<script type="text/javascript" src="angular-route.min.js"></script>
 	<script type="text/javascript" src="controller.js"></script>
+	<script type="text/javascript" src="scripts.js"></script>
 	
 </head>
 <body ng-controller="trumpTweets">
+<div id="intro-page-wrapper">
+	<div id="intro-page">
+		<h1>Trump and Sheen Tweets</h1>
+		<p>This page uses the Twitter API to allow render tweets from Donald Trump and Charlie Sheen</p>
+		<button id="intro-button" onclick="viewProject()">View Project</button>
+	</div>
+</div>
 	<div class="container-fluid">
 		
 		<div class="jumbotron">
